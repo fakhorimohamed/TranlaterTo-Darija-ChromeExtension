@@ -5,7 +5,7 @@ A full-stack application featuring a **Jakarta EE 10** backend and a **Chrome Ex
 ## 🚀 Features
 * **Contextual AI Translation:** Uses Gemini 2.5 Flash .
 * **Modern Extension UI:** A side-panel interface designed .
-* **Secure API:** Implements Basic Authentication via Jakarta Security .
+* **Secure API:** Implements Basic Authentication via Jakarta Security (Elytron). .
 
 ---
 
