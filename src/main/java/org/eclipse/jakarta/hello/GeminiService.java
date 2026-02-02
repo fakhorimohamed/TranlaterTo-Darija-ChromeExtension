@@ -24,10 +24,8 @@ public class GeminiService {
         try {
         	String prompt = "Translate the following English text to Moroccan Arabic (Darija): '" 
         + englishText + "'. Provide ONLY the translated word or phrase, no explanation, no pronunciation, no bullet points.";
-        	
-        	if(API_KEY!=null) {
-        		System.out.println("DEBUG: API Key found? " + API_KEY );
-        	}
+
+            
         	System.out.println("DEBUG: Sending request to: " + GEMINI_URL);
         	
             JsonObject requestBody = Json.createObjectBuilder()
