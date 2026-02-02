@@ -29,11 +29,12 @@ A full-stack application featuring a **Jakarta EE 10** backend and a **Chrome Ex
 3.  Click **Load unpacked**.
 4.  Select the `/extension` folder from this repository.
 
+---
 
 ## 📺 Demo Video
-Click the link below to see the Darija Translator in action,  from selecting English text to receiving  Moroccan Darija translation:
+Click the link below to see the Darija Translator in action, from selecting English text to receiving the Moroccan Darija translation:
 
-[▶️ Watch the Demo Video Here](--------------------------->>>>>https://drive.google.com/file/d/1VpHyG4LzM7RqVwnVxZNwBaTGG9xHY8LS/view?usp=drive_link)
+[**▶️ Watch the Demo Video Here**](https://drive.google.com/file/d/1VpHyG4LzM7RqVwnVxZNwBaTGG9xHY8LS/view?usp=drive_link)
 
 ---
 
