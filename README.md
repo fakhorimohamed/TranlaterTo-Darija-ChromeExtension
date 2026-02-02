@@ -44,6 +44,33 @@ Click the link below to see the Darija Translator in action,  from selecting Eng
 
 ---
 
+## 🛠️ Integrated Technology Stack
+
+This project demonstrates a multi-client architecture where the backend acts as a secure gateway to AI services.
+
+```mermaid
+graph TD
+    subgraph Clients
+        A[Chrome Extension]
+        B[PHP Web App]
+        C[Postman / CLI]
+    end
+
+    subgraph "Jakarta EE Backend (WildFly)"
+        D[REST API - JAX-RS]
+        E[Jakarta Security - Elytron]
+        F[GeminiService - AI Logic]
+    end
+
+    subgraph "AI Provider"
+        G[Gemini 2.5 Flash]
+    end
+
+    A & B & C --> D
+    D --> E
+    E --> F
+    F --> G
+
 ## 🔄 How It Works (User Flow)
 
 This diagram explains the process from the moment you select text until you see the Darija translation.
