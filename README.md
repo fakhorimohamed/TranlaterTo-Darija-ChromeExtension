@@ -33,7 +33,7 @@ A full-stack application featuring a **Jakarta EE 10** backend and a **Chrome Ex
 ## 📺 Demo Video
 Click the link below to see the Darija Translator in action,  from selecting English text to receiving  Moroccan Darija translation:
 
-[▶️ Watch the Demo Video Here](  --------------------------->>>>>LINK_HERE)
+[▶️ Watch the Demo Video Here](  --------------------------->>>>>https://drive.google.com/file/d/1VpHyG4LzM7RqVwnVxZNwBaTGG9xHY8LS/view?usp=drive_link)
 
 ---
 
