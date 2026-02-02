@@ -1,6 +1,6 @@
 # 🇲🇦 English to Moroccan Darija Translator (AI-Powered)
 
-A full-stack application featuring a **Jakarta EE 10** backend and a **Chrome Extension** (Manifest V3) (or Php client app) that uses **Google Gemini AI** to provide natural, contextual translations from English to Moroccan Darija.
+A full-stack application featuring a **Jakarta EE 10** backend and a **Chrome Extension** (Manifest V3) that uses **Google Gemini AI** to provide natural, contextual translations from English to Moroccan Darija.
 
 ## 🚀 Features
 * **Contextual AI Translation:** Uses Gemini 2.5 Flash .
