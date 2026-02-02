@@ -1,0 +1,16 @@
+package org.eclipse.jakarta.hello;
+
+public class TranslateRequest {
+   
+    private String text; 
+
+    public TranslateRequest() {} 
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Darija Translator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="main-header">
+    <h1>Translator to Darija</h1>
+    <p>Moroccan Darija Edition</p>
+  </header>
+
+  <main class="container">
+    <div id="auth-section" class="card auth-card">
+      <div class="auth-header">
+        <span class="star-icon">🇲🇦</span>
+        <h2>Marhaba</h2>
+        <p>Login to start translating</p>
+      </div>
+      <div class="input-group">
+        <label>Username</label>
+        <input type="text" id="user" placeholder="admin">
+      </div>
+      <div class="input-group">
+        <label>Password</label>
+        <input type="password" id="pass" placeholder="1234">
+      </div>
+      <button id="login-btn" class="primary-btn">Sign In</button>
+    </div>
+
+    <div id="main-section" style="display: none;">
+      <div class="card">
+        <label for="myText">English (Source)</label>
+        <textarea id="myText" placeholder="Paste or select text..."></textarea>
+      </div>
+
+      <div class="action-bar">
+        <button id="btn" class="primary-btn">Translate</button>
+      </div>
+
+      <div class="card">
+        <label for="res">Moroccan Darija</label>
+        <textarea id="res" readonly placeholder="الترجمة ستظهر هنا..."></textarea>
+      </div>
+
+      <button id="logout-btn" class="secondary-btn">Logout</button>
+    </div>
+  </main>
+
+  <script src="sidepanel.js"></script>
+</body>
+</html>
